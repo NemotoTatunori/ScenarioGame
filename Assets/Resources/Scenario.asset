@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5882da05a184747a6ee77ee44f3c8a, type: 3}
+  m_Name: Scenario
+  m_EditorClassIdentifier: 
+  Sheet1:
+  - id: 1
+    name: "\u6771\u96F2\u306D\u3082\u305F"
+    human: 0
+    dialogue: 
+    fade: i,0,1
+  - id: 2
+    name: "\u30C7\u30A3\u30FC\u30B5"
+    human: 1
+    dialogue: "\u307E\u305F\u305D\u308C\u304B\u30FB\u30FB\u30FB\n\u304A\u524D\u306F\u3044\u3064\u3082\u4FFA\u3092\uFF01"
+    fade: 
+  - id: 3
+    name: 
+    human: 0
+    dialogue: "\u52D5\u304F\u306A\uFF01\uFF01"
+    fade: 
+  - id: 4
+    name: 
+    human: 1
+    dialogue: "\uFF01\uFF1F"
+    fade: 
+  - id: 5
+    name: 
+    human: 0
+    dialogue: "\u9AA8\u3092\u76F4\u3057\u305F\u3070\u304B\u308A\u306A\u3093\u3060\n\u4E0B\u624B\u306B\u52D5\u3044\u305F\u3089\u305A\u308C\u3061\u3083\u3046\u3088"
+    fade: 
+  - id: 6
+    name: 
+    human: 1
+    dialogue: "\u304F\u3063\u30FB\u30FB\u30FB"
+    fade: 
+  - id: 7
+    name: 
+    human: 0
+    dialogue: "\u50D5\u306F\u541B\u306E\u547D\u3092\u3068\u308B\u7406\u7531\u306A\u3093\u3066\u306A\u3044\u3002\n\u541B\u3082\u6B7B\u306B\u6025\u3050\u7406\u7531\u3082\u306A\u3044\u3067\u3057\u3087\u3046\uFF1F"
+    fade: 
+  - id: 8
+    name: 
+    human: 1
+    dialogue: "\u304A\u524D\u306B\u3001\u4FFA\u306E\u4F55\u304C\u5206\u304B\u308B\u30FB\u30FB\u30FB\n\u4F55\u3082\u304B\u3082\u6075\u307E\u308C\u305F\u304A\u524D\u306B\u4F55\u304C\uFF01"
+    fade: 
+  - id: 9
+    name: 
+    human: 0
+    dialogue: "\u30FB\u30FB\u30FB"
+    fade: 
+  - id: 10
+    name: 
+    human: 0
+    dialogue: "\u7460\u7483\u6C5F\u6643"
+    fade: 
+  - id: 11
+    name: 
+    human: 1
+    dialogue: "\uFF01\uFF01"
+    fade: 
+  - id: 12
+    name: 
+    human: 0
+    dialogue: "\u9AD8\u6D5C\u770C\u306E\u821F\u539F\u753A\u751F\u307E\u308C\u3002\n\u59C9\u3068\u5F1F\u306E\u4E09\u4EBA\u5144\u5F1F\u3002\n\u821F\u539F\u5C0F\u5B66\u6821\uFF13\u5E74\uFF12\u7D44\u3060\u3063\u305F\u3002"
+    fade: 
+  - id: 13
+    name: 
+    human: 1
+    dialogue: "\u304A\u524D\u3001\u306A\u3093\u3067\u305D\u308C\u3092"
+    fade: 
+  - id: 14
+    name: 
+    human: 0
+    dialogue: "\u898B\u305B\u305F\u3044\u3082\u306E\u304C\u3042\u308B\u3093\u3060\u3002\n\u3064\u3044\u3066\u304D\u3066"
+    fade: 
+  - id: 15
+    name: 
+    human: 0
+    dialogue: 
+    fade: c,1
+  - id: 16
+    name: 
+    human: 2
+    dialogue: "\u5730\u7403\uFF1A\u65E5\u672C\uFF1A\u9AD8\u6D5C\u770C\uFF1A\u821F\u539F\u753A"
+    fade: 
+  - id: 17
+    name: 
+    human: 2
+    dialogue: "\u305D\u3053\u306B\u306F\u3042\u308B\u5BB6\u65CF\u304C\u968E\u6BB5\u3092\u4E0A\u3063\u3066\u3044\u308B\u306E\u304C\u898B\u3048\u305F\u3002"
+    fade: 
+  - id: 18
+    name: 
+    human: 1
+    dialogue: "\u3042\u308C\u306F\u30FB\u30FB\u30FB\n\u3066\u3081\u3047\u3001\u4F55\u306E\u3064"
+    fade: 
+  - id: 19
+    name: 
+    human: 0
+    dialogue: "\u3057\u3063\u30FC\uFF01\n\u9ED9\u3063\u3066\u898B\u3066\u3066"
+    fade: 
+  - id: 20
+    name: 
+    human: 2
+    dialogue: "\u305D\u306E\u5BB6\u65CF\u306F\u7460\u7483\u6C5F\u5BB6\u3068\u66F8\u3044\u3066\u3042\u308B\u304A\u5893\u306B\u6B62\u307E\u308A\n\u6383\u9664\u3092\u59CB\u3081\u305F\u3002"
+    fade: 
+  - id: 21
+    name: 
+    human: 1
+    dialogue: "\u307F\u3093\u306A\u3044\u308B\u3002\n\u306A\u3093\u306A\u3093\u3060\u3042\u308C\u30FB\u30FB\u30FB\n\u4FFA\u3093\u5BB6\u306B\u306F\u5893\u306A\u3093\u3066\u306A\u3044\u306F\u305A\u3060\uFF01"
+    fade: 
+  - id: 22
+    name: 
+    human: 0
+    dialogue: "\u3042\u308C\u306F\u3001\u541B\u306E\u304A\u5893\u3060\u3088"
+    fade: 
+  - id: 23
+    name: 
+    human: 1
+    dialogue: "\u30FB\u30FB\u30FB\u306A\u306B\uFF1F"
+    fade: 
+  - id: 24
+    name: 
+    human: 0
+    dialogue: "\u541B\u306E\u5BB6\u65CF\u306F\u3001\u541B\u3092\u7A81\u304D\u653E\u3057\u305F\u3053\u3068\u3092\u6094\u3084\u3093\u3067\u305F\u3088"
+    fade: 
+  - id: 25
+    name: 
+    human: 1
+    dialogue: "\u305D\u308C\u306F\u304A\u524D\u306E\u5BB6\u65CF\u3082\u540C\u3058\u3060\u308D\uFF1F"
+    fade: 
+  - id: 26
+    name: 
+    human: 0
+    dialogue: "\u305D\u3046\u3060\u306D\u3001\u78BA\u304B\u306B\u6094\u3084\u3093\u3067\u305F"
+    fade: 
+  - id: 27
+    name: 
+    human: 0
+    dialogue: "\u50D5\u3092\u80B2\u3066\u305F\u3053\u3068\u3092\u306D"
+    fade: 
+  - id: 28
+    name: 
+    human: 1
+    dialogue: "\u3048\u30FB\u30FB\u30FB"
+    fade: 
+  - id: 29
+    name: 
+    human: 0
+    dialogue: "\u541B\u306F\u4ECA\u307E\u3067\u3001\u611B\u60C5\u3060\u306E\u53CB\u60C5\u3060\u306E\u6563\u3005\u50D5\u306B\u8AAC\u3044\u3066\u304D\u305F\u3051\u3069\n\u5C11\u306A\u304F\u3068\u3082\u541B\u306E\u65B9\u304C\u5206\u304B\u308B\u3093\u3058\u3083\u306A\u3044\u306E\u304B\u306A\uFF1F"
+    fade: 
+  - id: 30
+    name: 
+    human: 1
+    dialogue: "\u30FB\u30FB\u30FB"
+    fade: 
+  - id: 31
+    name: 
+    human: 0
+    dialogue: "\u50D5\u306F\u3082\u3046\u3001\u3053\u3093\u306A\u661F\u306B\u672A\u7DF4\u306A\u3093\u304B\u306A\u3044\u3057\n\u4ECA\u306E\u541B\u304C\u3053\u308C\u304B\u3089\u4F55\u3092\u3057\u3088\u3046\u3068\u5E72\u6E09\u3059\u308B\u3064\u3082\u308A\u3082\u306A\u3044"
+    fade: 
+  - id: 32
+    name: 
+    human: 0
+    dialogue: "\u305F\u3060\u3001\u3053\u308C\u3060\u3051\u306F\u8A00\u308F\u305B\u3066\u307B\u3057\u3044"
+    fade: 
+  - id: 33
+    name: 
+    human: 1
+    dialogue: "\uFF1F"
+    fade: 
+  - id: 34
+    name: 
+    human: 0
+    dialogue: "\u3042\u306E\u5BB6\u65CF\u306E\u5143\u306B\u623B\u308B\u3053\u3068\u3060\u3051\u306F\n\u304A\u3059\u3059\u3081\u3057\u306A\u3044\u3088"
+    fade: 
+  - id: 35
+    name: 
+    human: 0
+    dialogue: 
+    fade: 
+  - id: 36
+    name: 
+    human: 0
+    dialogue: 
+    fade: 
+  - id: 37
+    name: 
+    human: 0
+    dialogue: 
+    fade: 
+  - id: 38
+    name: 
+    human: 0
+    dialogue: 
+    fade: 
+  - id: 39
+    name: 
+    human: 0
+    dialogue: 
+    fade: o,1,1
+  - id: 40
+    name: 
+    human: 0
+    dialogue: e
+    fade: 
